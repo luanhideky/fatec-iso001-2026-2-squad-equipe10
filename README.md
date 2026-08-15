@@ -1,0 +1,1 @@
+# fatec-iso001-2026-2-squad-equipe10
