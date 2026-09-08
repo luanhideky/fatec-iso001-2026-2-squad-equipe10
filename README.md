@@ -36,6 +36,8 @@ Como arquitetura inicial, estão previstos os seguintes componentes:
 - Gateway IoT
 - Rede de comunicação
 - Serviço de coleta de dados
+- Serviço de processamento
+- API
 - Banco de dados
 - Aplicação de monitoramento
 - Dashboard
