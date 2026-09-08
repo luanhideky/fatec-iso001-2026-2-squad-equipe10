@@ -1,0 +1,5 @@
+=== PID / PPID / ESTADO ===
+    PID    PPID STAT  NI COMMAND
+=== /proc/30845/status ===
+=== ENCERRANDO ===
+    PID TTY          TIME CMD
