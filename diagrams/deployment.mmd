@@ -1,20 +1,20 @@
 flowchart LR
 
     SEN[Sensores IoT]
-    GW[Gateway IoT]
+    USER[Operador / Gestor]
 
     subgraph EDGE["Ambiente Industrial"]
-        SEN
-        GW
+        GW[Gateway IoT]
     end
 
-    subgraph SRV["Servidor da Solucao"]
-        COL[Servico de Coleta]
-        PROC[Servico de Processamento]
-        API[API]
+    subgraph HOST["Servidor Linux / VM"]
         APP[Aplicacao Web / Dashboard]
-        ALT[Servico de Alertas]
-        LOG[Servico de Logs e Monitoramento]
+        API[API - Processo / Servico]
+        COL[Servico de Coleta - Processo]
+        PROC[Servico de Processamento - Processo]
+        ALT[Servico de Alertas - Processo]
+        LOG[Logs e Monitoramento]
+        FS[(Filesystem / Volume de Logs)]
     end
 
     subgraph DATA["Servidor de Dados"]
@@ -22,10 +22,8 @@ flowchart LR
         BK[(Backup)]
     end
 
-    USER[Operador / Gestor]
-
-    SEN --> GW
-    GW -->|Rede| COL
+    SEN -->|Dados dos sensores| GW
+    GW -->|Rede / Socket| COL
 
     COL --> PROC
     PROC --> DB
@@ -40,4 +38,5 @@ flowchart LR
     API --> LOG
     ALT --> LOG
 
+    LOG --> FS
     DB --> BK
