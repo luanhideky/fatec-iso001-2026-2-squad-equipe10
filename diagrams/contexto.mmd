@@ -1,5 +1,23 @@
-%% Diagrama de Contexto
-%% Será desenvolvido após a definição do tema pela squad.
-
 flowchart LR
-    A[Usuário] --> B[Solução da Equipe 10]
+
+    O[Operador]
+    G[Gestor]
+    A[Administrador do Sistema]
+    S[Equipe de Suporte]
+
+    SI[Sensores IoT]
+    GA[Gateway IoT]
+    AL[Servico de Alertas]
+
+    subgraph SOL["Solucao de Monitoramento IoT Industrial"]
+        APP[Aplicacao de Monitoramento]
+    end
+
+    O --> APP
+    G --> APP
+    A --> APP
+    S --> APP
+
+    SI --> GA
+    GA --> APP
+    APP --> AL
