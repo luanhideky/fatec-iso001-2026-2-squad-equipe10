@@ -1,7 +1,31 @@
-%% Diagrama de Containers
-%% Será desenvolvido após a definição do tema pela squad.
-
 flowchart LR
-    A[Usuário] --> B[Aplicação]
-    B --> C[API]
-    C --> D[(Banco de Dados)]
+
+    U[Operador / Gestor]
+    SEN[Sensores IoT]
+    GW[Gateway IoT]
+
+    subgraph SOL["Solucao de Monitoramento IoT Industrial"]
+        COL[Servico de Coleta]
+        PROC[Servico de Processamento]
+        API[API]
+        DB[(Banco de Dados)]
+        APP[Aplicacao Web / Dashboard]
+        ALT[Servico de Alertas]
+        LOG[Logs e Monitoramento]
+    end
+
+    SEN --> GW
+    GW --> COL
+
+    COL --> PROC
+    PROC --> DB
+    PROC --> ALT
+
+    U --> APP
+    APP --> API
+    API --> DB
+
+    COL --> LOG
+    PROC --> LOG
+    API --> LOG
+    ALT --> LOG
