@@ -1,4 +1,4 @@
 === PERMISSOES ===
----------- 1 eumoori eumoori 23 Sep  8 14:47 laboratorio/segredo.txt
+---------- 1 codespace codespace 25 Sep  8 19:03 laboratorio/eumoori/segredo.txt
 === TENTATIVA DE LEITURA ===
-cat: laboratorio/segredo.txt: Permission denied
+cat: laboratorio/eumoori/segredo.txt: Permission denied

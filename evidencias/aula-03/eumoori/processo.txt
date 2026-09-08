@@ -1,33 +1,14 @@
-=== INICIO ===
-PID=882
-=== PS ===
+=== PID / PPID / ESTADO ===
     PID    PPID STAT  NI COMMAND
-    882     880 R+     0 sleep
-=== /proc/882/status ===
+   4185    3037 S      0 sleep
+=== /proc/4185/status ===
 Name:	sleep
-Umask:	0022
-State:	D (disk sleep)
-Tgid:	882
-Ngid:	0
-Pid:	882
-PPid:	880
-TracerPid:	0
-Uid:	1000	1000	1000	1000
-Gid:	1000	1000	1000	1000
-FDSize:	256
-Groups:	4 24 27 30 46 100 1000 
-NStgid:	882
-NSpid:	882
-NSpgid:	880
-NSsid:	425
-Kthread:	0
-VmPeak:	   16112 kB
-VmSize:	   16112 kB
-VmLck:	       0 kB
-VmPin:	       0 kB
-VmHWM:	    6572 kB
-VmRSS:	    6572 kB
-RssAnon:	    1116 kB
-RssFile:	    5456 kB
+State:	S (sleeping)
+Pid:	4185
+PPid:	3037
+VmRSS:	    2052 kB
+Threads:	1
+voluntary_ctxt_switches:	1
+nonvoluntary_ctxt_switches:	2
 === ENCERRANDO ===
     PID TTY          TIME CMD

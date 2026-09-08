@@ -2,17 +2,17 @@
 
 ## 1. Ambiente
 
-Kernel observado: 6.18.33.2-microsoft-standard-WSL2
+Kernel observado: 6.8.0-1052-azure
 
-Memória disponível: aproximadamente 7,2 GiB no momento da coleta.
+Memória disponível: aproximadamente 5,6 GiB no momento da coleta.
 
 Uma informação que me chamou atenção: o Sistema Operacional disponibiliza informações detalhadas sobre memória, processos, armazenamento e outros recursos, permitindo observar e diagnosticar o funcionamento do ambiente.
 
 ## 2. Processo
 
-PID observado: 882
+PID observado: 4185
 
-PPID observado: 880
+PPID observado: 3037
 
 Um programa é um conjunto de instruções armazenado, enquanto um processo é uma instância desse programa em execução. Cada processo possui informações próprias, como PID, estado e recursos utilizados, que podem ser observadas pelo Sistema Operacional.
 
