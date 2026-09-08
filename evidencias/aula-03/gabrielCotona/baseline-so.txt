@@ -1,0 +1,34 @@
+=== gabrielCotona ===
+codespace
+uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),986(pipx),987(python),988(oryx),989(golang),990(docker),991(sdkman),992(ruby),993(php),994(conda),995(nvm),996(hugo),1001(ssh)
+=== KERNEL===
+6.8.0-1052-azure
+=== DISTRIBUIÇÃO ===
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       2.4Gi       275Mi        64Mi       5.5Gi       5.4Gi
+Swap:             0B          0B          0B
+=== DISCO DO PROJETO===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G   11G   19G  37% /workspaces
+=== PROCESSOS ===
+    PID    PPID STAT %CPU %MEM COMMAND
+    484     460 Sl    3.0  8.5 MainThread
+    460     450 Rl    0.3  1.5 MainThread
+   1018     460 Sl    0.1  0.9 MainThread
+    508     460 Sl    0.1  1.6 MainThread
+    944     508 Sl    0.1  3.8 MainThread
+     73       1 Sl    0.0  1.2 dockerd
+     72       1 Sl    0.0  0.6 containerd
+      7       1 S     0.0  0.0 sh
+   1364     484 Sl    0.0  1.0 MainThread
+    497     460 Sl    0.0  0.7 MainThread
+   1056    1018 Ss+   0.0  0.1 bash
