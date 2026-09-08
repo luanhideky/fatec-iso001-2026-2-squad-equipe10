@@ -4,20 +4,20 @@ flowchart LR
     G[Gestor]
     A[Administrador do Sistema]
     S[Equipe de Suporte]
-
     SI[Sensores IoT]
-    GA[Gateway IoT]
-    AL[Servico de Alertas]
 
     subgraph SOL["Solucao de Monitoramento IoT Industrial"]
+        GA[Gateway IoT]
         APP[Aplicacao de Monitoramento]
+        AL[Servico de Alertas]
     end
+
+    SI --> GA
+    GA --> APP
 
     O --> APP
     G --> APP
     A --> APP
     S --> APP
 
-    SI --> GA
-    GA --> APP
     APP --> AL
