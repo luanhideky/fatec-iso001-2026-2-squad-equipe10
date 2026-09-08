@@ -1,0 +1,14 @@
+=== PID / PPID / ESTADO ===
+    PID    PPID STAT  NI COMMAND
+   4185    3037 S      0 sleep
+=== /proc/4185/status ===
+Name:	sleep
+State:	S (sleeping)
+Pid:	4185
+PPid:	3037
+VmRSS:	    2052 kB
+Threads:	1
+voluntary_ctxt_switches:	1
+nonvoluntary_ctxt_switches:	2
+=== ENCERRANDO ===
+    PID TTY          TIME CMD
