@@ -77,6 +77,7 @@ O projeto será relacionado principalmente aos seguintes conceitos:
 ## Backlog
 
 - [Sprint 01](backlog/sprint-01.md)
+- [Sprint 02](backlog/sprint-02.md)
 
 ## Evidências
 
