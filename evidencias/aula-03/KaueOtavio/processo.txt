@@ -1,0 +1,15 @@
+=== PID / PPID / ESTADO ===
+    PID    PPID STAT  NI COMMAND
+ 100992   96270 S      0 sleep
+=== /proc/100992/status ===
+Name:	sleep
+State:	S (sleeping)
+Pid:	100992
+PPid:	96270
+VmRSS:	    1932 kB
+Threads:	1
+voluntary_ctxt_switches:	1
+nonvoluntary_ctxt_switches:	1
+=== ENCERRANDO ===
+=== CONFIRMANDO ENCERRAMENTO ===
+    PID TTY          TIME CMD

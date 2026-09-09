@@ -1,0 +1,20 @@
+# Aula 03 - Reflexão individual
+
+## 1. Ambiente
+Kernel observado: 6.8.0-1029-azure
+Memória disponível: 7,7 GiB
+Uma informação que me chamou atenção: O comando git switch, pois facilita a troca entre branches do projeto sem precisar usar comandos mais antigos.
+
+## 2. Processo
+PID observado: 40052
+PPID observado: 1
+Explique com suas palavras a diferença entre programa e processo: Um programa é um conjunto de instruções armazenado no computador. Um processo é esse programa sendo executado pelo sistema operacional.
+
+## 3. Proteção
+Quem negou a leitura do arquivo e por quê? O kernel negou a leitura porque o arquivo estava com as permissões 000, impedindo o acesso.
+
+## 4. Projeto da squad
+Escolha UM componente do projeto (API, banco, worker, storage, etc.): API
+Esse componente rodaria como quê? Um processo ou serviço no servidor.
+Se ele falhar, qual impacto de negócio aparece? O sistema pode deixar de responder às solicitações dos usuários, impedindo o funcionamento de algumas funcionalidades.
+Qual controle deveria existir? Healthcheck e logs para identificar problemas e permitir a recuperação do serviço.
