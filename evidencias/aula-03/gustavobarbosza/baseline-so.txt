@@ -1,0 +1,34 @@
+=== USUARIO ===
+gustavo
+uid=1000(gustavo) gid=1000(gustavo) groups=1000(gustavo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+=== KERNEL ===
+6.18.33.2-microsoft-standard-WSL2
+=== DISTRIBUICAO ===
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       465Mi       2.7Gi       3.5Mi       644Mi       3.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+=== DISCO DO PROJETO ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.4G  955G   1% /
+=== PROCESSOS ===
+    PID    PPID STAT %CPU %MEM COMMAND
+      1       0 Ss    0.3  0.3 systemd
+     90       1 Ss    0.1  0.3 systemd-udevd
+    125       1 Ss    0.1  0.7 networkd-dispat
+    225       1 Ssl   0.1  0.8 unattended-upgr
+     49       1 S<s   0.0  0.4 systemd-journal
+    164       1 Ssl   0.0  0.4 wsl-pro-service
+    156       1 Ss    0.0  0.2 systemd-logind
+     84       1 Ss    0.0  0.3 systemd-resolve
+    168       1 Ssl   0.0  0.1 rsyslogd
+    389       1 Ss    0.0  0.3 systemd
+    116       1 Ss    0.0  0.0 chronyd-starter

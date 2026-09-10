@@ -1,0 +1,4 @@
+=== PERMISSOES ===
+---------- 1 gustavo gustavo 33 Sep  9 00:59 laboratorio/gustavobarbosza/segredo.txt
+=== TENTATIVA DE LEITURA ===
+cat: laboratorio/gustavobarbosza/segredo.txt: Permission denied
